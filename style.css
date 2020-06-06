@@ -49,9 +49,9 @@ table {
 
 
 /* index.html styling */
-/* html {
+html {
     font-size: 62.5%;
-    color: #fcfcfa;
+    color: #191916;
     font-family: 'Lato', sans-serif;
 }
 
@@ -59,32 +59,147 @@ p {
     font-size: 1.6rem;
 }
 
-nav {
-    background-color: #8b3f4c;
+h3 {
+    font-size: 2.0rem;
+    color: #463f3a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+section {
+    margin-bottom: 80px;
 }
 
-.nav-links {
+/*header*/
+
+header {
+    height: 60px;
+    background: #e0afa0;
    
 }
 
 h1 {
     font-family: 'Rosario', sans-serif;
     font-size: 2.4rem;
-    color: #fcfcfa;
+    /* color: #fcfcfa; */
+    color: black;
     margin: 10px;
 }
 
-.card{
-    color: #fcfcfa;
-    width: 33.3%;
-    max-width: 425px;
-    height: 239px;
+header a {
+    font-size: 1.4rem;
+    color: #191919;
 }
 
-.card-1{
-    background-color: #191919;
+header .active {
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #fcfcfa;
+}
+
+/*subtitle*/
+
+.subtitle {
+    height: 100px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.color-change {
+    color: #e0afa0;
+}
+
+/*Studies*/
+
+.studies .card {
+    height: 130px;
+}
+
+.studies h5 {
+    font-size: 2.0rem;
+    color: #fcfcfa;
+}
+
+.studies .card-text {
+    font-size: 1.6rem;
+}
+
+
+.card-1, .card-3 {
+    background: #191916;
+    color: #fcfcfa;
 }
 
 .card-2 {
-    background-color: #8B3F4C;
-} */
+    background: #e0afa0;
+    color: #191916;
+}
+
+.card-2 h5{
+    color: #191916;
+}
+
+
+/*coding projects*/ 
+
+#projects h3 {
+    padding-top: 30px;
+}
+
+.project-title {
+    font-size: 2.6rem;
+}
+
+img{
+    height: 200px;
+}
+
+/*about*/
+#about {
+    width: 600px;
+}
+
+.about-title {
+    font-size: 2.0rem;
+}
+
+.btn-about {
+    margin-top: 20px;
+    background: #e0afa0;
+}
+
+.profile {
+    border-radius: 5%;
+    box-shadow: 20px 20px #e0afa0;
+}
+
+footer {
+    height: 80px;
+    background: #e0afa0;
+    text-align: center;
+}
+.social-icons {
+    display: flex; 
+    justify-content: center;
+}
+.about-p {
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+i{
+    padding-top: 8px;
+    font-size: 15px;
+    color: #191916;
+    margin: 5px;
+}
+
+.copyright-p {
+    font-size: 1.0rem;
+    padding-top: 10px;
+}
